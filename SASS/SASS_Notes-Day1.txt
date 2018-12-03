@@ -1,0 +1,40 @@
+SASS --> Syntactically Awesome StyleSheet
+It is a CSS Pre-processor
+Reduce repetition and due to which saves lots of time
+More stable
+
+Why SASS ?
+--> Its re-useable code,variable,functions,inheritance
+-->Superset of CSS
+-->Pre-processing language
+-->Easy to maintain
+
+Advantages :
+1)Code is written in easy way
+2)It helps to write quickly and easily.
+3)It is compatible with all versions of CSS
+4)More functions like nesting , custom functions
+
+Disadvantages :
+1)Developer need to takes time to learn
+2)when many peope work on same project , then they should use same pre-processor
+
+
+SCSS Syntax
+-> .scss ($)
+convert .scss file to .css
+including .css into .html file
+
+
+Creating Environment
+1)Create one folder name SCSS_Demo in D:
+2)Go to that Drive in command prompt
+3)Install package : npm init --yes
+4)Add dependency : npm install sass --save-dev
+5)In package.json change script property to "convert": "sass --watch"
+6)Create one folder named as assets inside SCSS_Demo 
+
+7)Creating .scss file
+8)Creating .html file
+9)Converting .scss file to .css file 
+10)Run the .html file

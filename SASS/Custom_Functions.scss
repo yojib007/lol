@@ -1,0 +1,22 @@
+@function color()
+{
+	@return blue;
+}
+
+@function size()
+{
+	@return 24px;
+}
+
+div{
+Color:color();
+font-size:size();
+}
+
+h2{
+	font-size:10px + 5pxxxx;
+}
+
+h3{
+	font-size : 3 * (5px + 5px);
+}

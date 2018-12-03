@@ -1,0 +1,12 @@
+@mixin style{
+	.c1{
+		background-color:yellow;
+		color:red;
+	}
+	
+	h2{
+	color:blue;
+	}
+}
+
+@include style;

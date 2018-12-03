@@ -1,0 +1,15 @@
+{
+  "name": "SCSS_Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "sass --watch assets/SCSS_Loops.scss assets/SCSS_Loops.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.15.1"
+  }
+}

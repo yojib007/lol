@@ -1,0 +1,10 @@
+@mixin bordered($color,$width:2px){
+	color : aqua;
+	border : $width solid black;
+	width : 500px;
+}
+
+.style 
+{
+@include bordered($color:green,$width:5px);
+}
